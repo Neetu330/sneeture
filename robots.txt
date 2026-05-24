@@ -1,0 +1,20 @@
+# =========================================
+# Sneeture Robots.txt
+# =========================================
+
+User-agent: *
+
+# Allow Website
+Allow: /
+
+# Block Sensitive Areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+# Improve Crawl Efficiency
+Crawl-delay: 5
+
+# Sitemap Location
+Sitemap: https://www.sneeture.com/sitemap.xml
